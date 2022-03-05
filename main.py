@@ -1,6 +1,6 @@
 from search import *
 
-
+//test
 class WolfGoatCabbage(Problem):
 
     def __init__(self, initial={'F', 'G', 'W', 'C'}, goal=set()):
