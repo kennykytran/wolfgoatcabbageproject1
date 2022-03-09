@@ -44,7 +44,7 @@ class WolfGoatCabbage(Problem):
         elif state == {'G'}:
             return [{'F'}]
         elif state == {'F', 'G'}:
-            return [{'G', 'F'}]
+            return [{'F', 'G'}]
         else:
             return [set()]
 
